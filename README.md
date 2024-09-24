@@ -1,6 +1,4 @@
-Here's the updated **README.md** with additional information about using **Gradio** for the web interface:
 
----
 
 # 🌿 Plant Disease Detection
 
@@ -19,6 +17,15 @@ The dataset used for training the model can be found on **Kaggle**. It includes 
 
 ## 🧠 Model Details
 The model architecture consists of a **CNN** built using **TensorFlow** and **Keras**. It has been trained to detect patterns in images that correlate with different plant diseases.
+
+### 📝 Model Training
+To generate the `best_model.keras` file, you need to run the Jupyter notebook **`cnn_plant_diseas.ipynb`**. This notebook contains all the necessary steps for preprocessing the dataset, training the Convolutional Neural Network (CNN), and saving the trained model.
+
+1. Open the **`cnn_plant_diseas.ipynb`** file in a Jupyter Notebook environment.
+2. Follow the steps in the notebook to preprocess the dataset and train the model.
+3. Once the training is complete, the model will be saved as `best_model.keras`, which can then be used for inference in the Gradio interface.
+
+---
 
 ## 🚀 Installation
 
@@ -63,7 +70,7 @@ This will start the Gradio interface, which will open in your web browser automa
 3. The model will evaluate the image and return a classification of the plant's health status.
 
 ## 🔧 Gradio Settings
-This project uses the **monochrome theme** in the Gradio interface for a clean and minimalist look. If you'd like to modify the Gradio interface further, check the [Gradio documentation](https://www.gradio.app/).
+This project uses the **monochrome theme** in the Gradio interface for a clean and minimalist look. If you'd like to modify the Gradio interface further, check the [Gradio documentation](https://gradio.app/).
 
 ---
 
@@ -71,3 +78,4 @@ This project uses the **monochrome theme** in the Gradio interface for a clean a
 Feel free to contribute to this project by opening issues or submitting pull requests. Your feedback is valuable!
 
 ---
+
